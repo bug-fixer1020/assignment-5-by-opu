@@ -1,0 +1,138 @@
+/* Body design */
+body {
+  width: 1440px;
+  height: 2085px;
+  background-color: #FFFFFF;
+}
+/* shared design */
+.flex{
+  display: flex;
+}
+/* font design */
+
+.lexand {
+  font-family: "Lexend", sans-serif;
+}
+
+header{
+  height: 97px;
+  display: flex;
+  align-items: center;
+}
+.nav{
+  padding-top: 24px;
+  align-items: center;
+}
+.blog-btn{
+  width: 110px;
+  height: 49px;
+  background-color: #B4F461;
+  border-radius: 8px;
+  margin-left: 137.5px;
+  margin-top: 24px;
+}
+.blog-btn a{
+  text-decoration: none;
+  color: #111111;
+  font-weight: 900;
+  font-size: 20px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.middle-part{
+  width: 262px;
+  height: 48px;
+  padding-left: 329px;
+  
+  font-size: 20px;
+  color: #111111;
+  font-weight: 600;
+
+}
+main{
+  width: 1140px;
+  background-color: #FFFFFF;
+  margin-top: 90px;
+}
+.double-btn{
+  width: 309px;
+  height: 57px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-left: 415.5px;
+  margin-right: 415.5px;
+}
+.dont-btn{
+  background-color: #B4F461;
+  width: 157px;
+  height: 57px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.his-btn{
+  background-color: #e1e6dd46;
+  width: 157px;
+  height: 57px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.card-1{
+  width: 1140px;
+  height: 453px;
+  margin-top: 32px;
+  padding: 32px;
+  gap: 16px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.card-one-img{
+  width: 520px;
+  height: 389px;
+}
+.bdt-btn{
+  display: flex;
+  align-items: center;
+  width: 110px;
+  height: 44px;
+  background-color: #11111114;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.card-1-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #111111;
+  margin-bottom: 16px;
+}
+.card-1-des{
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 24px;
+  color: #11111175;
+}
+
+.donation-ammoutn{
+  width: 522px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid #11111110;
+  padding: 8px;
+  color: #11111140;
+  margin-bottom: 16px;
+}
+.donation-submit{
+  font-size: 20px;
+  font-width: 600;
+  text-align: center;
+  width: 522px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #B4F461;
+  border: 1px solid #11111110;
+  padding: 8px;
+  color: #111111;
+}
